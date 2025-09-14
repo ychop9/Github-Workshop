@@ -50,7 +50,7 @@ git config --global user.email "your.email@example.com"
 
 2. **Create a new file with your information**:
    ```bash
-   echo "Name: Your Name\nFavorite Programming Language: Your Language" > student-info.txt
+   echo -e "Name: Your Name  \nFavorite Programming Language: Your Language" > student-info.md
    ```
 
 3. **Stage and commit your changes**:
@@ -76,7 +76,7 @@ git config --global user.email "your.email@example.com"
 2. **Create a simple project file**:
    ```bash
    mkdir my-project
-   echo "# My First Project\n\nThis is a project I'm working on during the Git workshop." > my-project/README.md
+   echo -e "# My First Project\n\nThis is a project I'm working on during the Github workshop." > my-project/README.md
    ```
 
 3. **Commit your project**:
@@ -111,7 +111,7 @@ git config --global user.email "your.email@example.com"
 
 3. **Modify an existing file**:
    ```bash
-   echo "\n## Features\n- Learning Git\n- Having fun!" >> my-project/README.md
+   echo -e "\n## Features\n- Learning Git\n- Having fun!" >> my-project/README.md
    ```
 
 4. **Stage all changes**:
@@ -122,11 +122,6 @@ git config --global user.email "your.email@example.com"
 5. **Commit your changes**:
    ```bash
    git commit -m "Add hello.py and update README with features"
-   ```
-
-6. **View the differences**:
-   ```bash
-   git diff HEAD~1
    ```
 
 ### Exercise 4: Merging Branches 🔀
@@ -285,7 +280,6 @@ After completing this workshop:
 ## Resources 📚
 
 - [Git Official Documentation](https://git-scm.com/doc)
-- [GitHub Learning Lab](https://lab.github.com/)
 - [Interactive Git Tutorial](https://learngitbranching.js.org/)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
